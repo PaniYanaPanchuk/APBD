@@ -1,3 +1,5 @@
+import javax.print.DocFlavor.STRING;
+
 public class Program
 {
     public static void main(String[] args)
@@ -23,6 +25,8 @@ public class Program
         int[] tab = {1,2,3,4,5,6,7,8,9,10};
 
         System.out.println(avaregeValue(tab));
+
+        String str = "PJATK";
     }
 
     public static int avaregeValue(int[] tab)
