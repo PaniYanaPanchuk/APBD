@@ -35,6 +35,8 @@ public class Program
     {
         int value = 0;
 
+        int tmp = tab[0];
+
         for (int i = 0; i < tab.length; i++)
         {
             value += tab[i];
