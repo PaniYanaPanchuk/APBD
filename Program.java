@@ -27,6 +27,8 @@ public class Program
         System.out.println(avaregeValue(tab));
 
         String str = "PJATK";
+        
+        System.out.println(maxValue(tab));
     }
 
     public static int avaregeValue(int[] tab)
