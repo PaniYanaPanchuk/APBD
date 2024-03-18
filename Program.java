@@ -33,16 +33,16 @@ public class Program
 
     public static int avaregeValue(int[] tab)
     {
-        int value = 0;
+        int v = 0;
 
         int tmp = tab[0];
 
         for (int i = 0; i < tab.length; i++)
         {
-            value += tab[i];
+            v += tab[i];
         }
 
-        return value;
+        return v;
     }
 
     public static int maxValue(int[] tab)
