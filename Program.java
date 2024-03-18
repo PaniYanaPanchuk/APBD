@@ -19,5 +19,21 @@ public class Program
         {
             System.out.println("You are child");
         }
+
+        int[] tab = {1,2,3,4,5,6,7,8,9,10};
+
+        System.out.println(avaregeValue(tab));
+    }
+
+    public static int avaregeValue(int[] tab)
+    {
+        int value = 0;
+
+        for (int i = 0; i < tab.length; i++)
+        {
+            value += tab[i];
+        }
+
+        return value;
     }
 }
