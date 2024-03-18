@@ -20,4 +20,16 @@ public class Program
             System.out.println("You are child");
         }
     }
+
+    public static int avaregeValue(int[] tab)
+    {
+        int value = 0;
+
+        for (int i = 0; i < tab.length; i++)
+        {
+            value += tab[i];
+        }
+
+        return value;
+    }
 }
