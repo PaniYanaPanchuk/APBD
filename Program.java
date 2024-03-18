@@ -8,5 +8,7 @@ public class Program
         {
             System.out.println(args[i]);
         }
+
+        int age = 19;
     }
 }
