@@ -40,4 +40,15 @@ public class Program
 
         return value;
     }
+
+    public static int maxValue(int[] tab)
+    {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < tab.length; i++) {
+            if (tab[i] > max)
+                max = tab[i];
+        }
+
+        return max;
+    }
 }
